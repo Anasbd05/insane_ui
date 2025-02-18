@@ -1,4 +1,4 @@
-import type { Config } from "tailwindcss";
+import type {Config} from "tailwindcss";
 
 export default {
   content: [
@@ -8,11 +8,13 @@ export default {
   ],
   theme: {
     extend: {
-      container:{
-        padding: "1rem" ,
-        center : true
+      container: {
+        padding: "1rem",
+        center: true
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 } satisfies Config;
