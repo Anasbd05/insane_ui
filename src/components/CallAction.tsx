@@ -7,8 +7,8 @@ const CallAction = () => {
     return (
         <div className='bg-black text-white py-[72px] sm:py-24 text-center '>
             <div className="container max-w-xl relative">
-                <Image className='absolute  hidden sm:flex top-6 left-[calc(100%+36px)] ' src={emojieStar} alt='' />
-                <Image className='absolute hidden sm:flex  -top-[120px] right-[calc(100%+24px)] ' src={helix2} alt='' />
+                <Image className='absolute  hidden  md:flex top-6 left-[calc(100%+36px)] ' src={emojieStar} alt='' />
+                <Image className='absolute hidden md:flex  -top-[120px] right-[calc(100%+24px)] ' src={helix2} alt='' />
                 <h2 className='font-bold text-5xl sm:text-6xl tracking-tighter'>
                     Get instant access
                 </h2>
